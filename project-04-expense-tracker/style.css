@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 2rem;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #111;
+}
+
+.tracker {
+    display: flex;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.input-section {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 280px;
+}
+
+.input-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.input-section input, .input-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+.input-section button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #5a87b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.input-section button:hover{
+    background-color: #4c749b;
+}
+
+.output-section {
+    background-color: white;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.filter-bar {
+    margin-bottom: 1rem;
+}
+
+.filter-bar label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#expense-list {
+    list-style: none;
+    max-height: 280px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+#expense-list li {
+    background-color: #f3f3f3;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+}
+

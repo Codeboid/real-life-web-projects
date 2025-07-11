@@ -12,8 +12,7 @@ A collection of beginner to intermediate real-life web development projects usin
 1. Daily Goal Tracker
 2. Tip Calculator
 3. BMI Calculator
-4. Quiz App
-5. Digital Clock
+4. Expense Tracker
 (...more coming)
 
 ## 📝 License
