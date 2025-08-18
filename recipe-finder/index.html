@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recipe Finder — Codeboid</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Recipe Finder 🍳</h1>
+            <p class="sub">Search real recipes via a free API (no key). Try: <em>pasta</em>, <em>chicken</em>,
+                <em>rice</em>.</p>
+        </header>
+
+        <form id="searchForm" class="search" role="search" aria-label="Recipe search">
+            <label for="q" class="sr-only">Search recipes</label>
+            <input id="q" name="q" type="search" placeholder="Search recipes (e.g., pasta)" autocomplete="off" />
+            <button class="btn primary" type="submit">Search</button>
+        </form>
+
+        <p id="status" class="status" aria-live="polite"></p>
+
+        <section id="results" class="grid" aria-label="Search results">
+            <!-- Cards render here -->
+        </section>
+
+        <footer class="footer">
+            <p>Built with ❤️ by <a href="https://codeboid.com" target="_blank" rel="noopener">Codeboid</a></p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
